@@ -1,3 +1,16 @@
+# 本番環境
+production:
+  password: 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
+  theme_id: "125295591610"
+  store: sandar-test.myshopify.com
+
+# ステージング環境
+staging:
+  password: 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
+  theme_id: "125295591610"
+  store: sandar-test.myshopify.com
+
+# 開発環境
 development:
   password: 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
   theme_id: "125295591610"
