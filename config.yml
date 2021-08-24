@@ -1,28 +1,25 @@
-<<<<<<< HEAD
  # 本番環境
 production:
-  password: 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
-  theme_id: "125295591610"
-  store: sandar-test.myshopify.com
+  password: ${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}
+  theme_id: ${"125295591610"}
+  store: ${sandar-test.myshopify.com}
 
 # ステージング環境
 staging:
-  password: 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
-  theme_id: "125295591610"
-  store: sandar-test.myshopify.com
+  password: ${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}
+  theme_id: ${"125295591610"}
+  store: ${sandar-test.myshopify.com}
 
 # 開発環境
-=======
->>>>>>> develop
 development:
-  password: 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
-  theme_id: "125301227706"
-  store: sandar-test.myshopify.com
+  password: ${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}
+  theme_id: ${"125301227706"}
+  store: ${sandar-test.myshopify.com}
 production:
-  password: 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
-  theme_id: "125295591610"
-  store: sandar-test.myshopify.com
+  password: ${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}
+  theme_id: ${"125295591610"}
+  store: ${sandar-test.myshopify.com}
 staging:
-  password: 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
-  theme_id: "125295591610"
-  store: sandar-test.myshopify.com
+  password: ${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}
+  theme_id: ${"125295591610"}
+  store: ${sandar-test.myshopify.com}
