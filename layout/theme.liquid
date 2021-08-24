@@ -41,6 +41,7 @@
 <body>
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ "accessibility.skip_to_text" | t }}
+<<<<<<< HEAD
     </a> 　test １5 {% section 'announcement-bar' %} {% section 'header' %}
 
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
@@ -74,6 +75,41 @@
 
     <script src="{{ 'slider.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'variants.js' | asset_url }}" defer="defer"></script>
+=======
+    </a> console.log("{{ template }}"); {% section 'announcement-bar' %} {% section 'header' %}
+
+    <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
+        {% assign my_variable = "tomato" %} {{ my_variable }}
+        <!-- If customer.name = "anonymous" -->
+        {% if customer.name == "kevin" %} Hey Kevin! {% elsif customer.name == "anonymous" %} Hey Anonymous! {% else %} Hi Stranger! {% endif %} {{ product.title }} {{ content_for_layout }} {% section 'footer' %}
+
+        <ul hidden>
+            <li id="a11y-refresh-page-message">{{ 'accessibility.refresh_page' | t }}</li>
+        </ul>
+
+        <script>
+            window.routes = {
+                cart_add_url: '{{ routes.cart_add_url }}',
+                cart_change_url: '{{ routes.cart_change_url }}',
+                cart_update_url: '{{ routes.cart_update_url }}'
+            };
+
+            window.cartStrings = {
+                error: `{{ 'sections.cart.cart_error' | t }}`,
+                quantityError: `{{ 'sections.cart.cart_quantity_error_html' | t }}`
+            }
+
+            window.variantStrings = {
+                addToCart: `{{ 'products.product.add_to_cart' | t }}`,
+                soldOut: `{{ 'products.product.sold_out' | t }}`,
+                unavailable: `{{ 'products.product.unavailable' | t }}`,
+            }
+        </script>
+
+        <script src="{{ 'slider.js' | asset_url }}" defer="defer"></script>
+        <script src="{{ 'variants.js' | asset_url }}" defer="defer"></script>
+
+>>>>>>> develop
 </body>
 
 </html>
