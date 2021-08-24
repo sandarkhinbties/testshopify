@@ -26,6 +26,7 @@
         "button"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/hamburg-4264316_1920.jpg",
         "desktop_text_box_position": "flex-end",
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
@@ -36,14 +37,14 @@
       "type": "featured-collection",
       "settings": {
         "title": "Featured products",
-        "collection": "サンダーフラワー",
-        "products_to_show": 8,
+        "collection": "",
+        "products_to_show": 4,
         "show_view_all": true,
         "swipe_on_mobile": false,
-        "image_ratio": "square",
-        "show_secondary_image": true,
-        "add_image_padding": true,
-        "show_vendor": true
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_vendor": false
       }
     },
     "image_text": {
@@ -100,19 +101,12 @@
           "settings": {
             "collection": ""
           }
-        },
-        "971a24b7-05ae-400a-9701-34761595a332": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "flower"
-          }
         }
       },
       "block_order": [
         "1627536590f483790c-0",
         "1627536590f483790c-1",
-        "1627536590f483790c-2",
-        "971a24b7-05ae-400a-9701-34761595a332"
+        "1627536590f483790c-2"
       ],
       "settings": {
         "title": "Collections",
@@ -122,93 +116,12 @@
         "image_padding": false,
         "show_view_all": false
       }
-    },
-    "16278646691a7cc366": {
-      "type": "featured-blog",
-      "blocks": {
-        "16278646691a7cc366-0": {
-          "type": "title",
-          "settings": {
-            "show_date": true,
-            "show_author": true
-          }
-        },
-        "16278646691a7cc366-1": {
-          "type": "summary",
-          "settings": {}
-        },
-        "16278646691a7cc366-2": {
-          "type": "link",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "16278646691a7cc366-0",
-        "16278646691a7cc366-1",
-        "16278646691a7cc366-2"
-      ],
-      "settings": {
-        "heading": "Blog posts",
-        "blog": "",
-        "post_limit": 3,
-        "show_view_all": true,
-        "show_image": true,
-        "soft_background": false
-      }
-    },
-    "1627864813e3fc531a": {
-      "type": "news-list",
-      "settings": {
-        "title": "お知らせ一覧",
-        "news_list": "ニュース",
-        "post_limit": 3,
-        "news_list_date": true,
-        "news_list_category": true
-      }
-    },
-    "1628579274f302cb20": {
-      "type": "image-with-text",
-      "blocks": {
-        "1628579274f302cb20-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text"
-          }
-        },
-        "1628579274f302cb20-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        },
-        "1628579274f302cb20-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "1628579274f302cb20-0",
-        "1628579274f302cb20-1",
-        "1628579274f302cb20-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/hamburg-4264316_1920_42fa1ec5-ea4c-4453-86e9-a877b3725516.jpg",
-        "height": "small",
-        "color_scheme": "accent-2",
-        "layout": "image_first"
-      }
     }
   },
   "order": [
     "image_banner",
     "featured_products",
     "image_text",
-    "1627536590f483790c",
-    "16278646691a7cc366",
-    "1627864813e3fc531a",
-    "1628579274f302cb20"
+    "1627536590f483790c"
   ]
 }
