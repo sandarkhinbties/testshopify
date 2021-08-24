@@ -41,7 +41,7 @@
 <body>
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ "accessibility.skip_to_text" | t }}
-    </a> 　test 17{% section 'announcement-bar' %} {% section 'header' %}
+    </a> 　test 20 {% section 'announcement-bar' %} {% section 'header' %}
 
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
         {{ content_for_layout }}
@@ -59,12 +59,10 @@
             cart_change_url: '{{ routes.cart_change_url }}',
             cart_update_url: '{{ routes.cart_update_url }}'
         };
-
         window.cartStrings = {
             error: `{{ 'sections.cart.cart_error' | t }}`,
             quantityError: `{{ 'sections.cart.cart_quantity_error_html' | t }}`
         }
-
         window.variantStrings = {
             addToCart: `{{ 'products.product.add_to_cart' | t }}`,
             soldOut: `{{ 'products.product.sold_out' | t }}`,
